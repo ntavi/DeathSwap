@@ -1,0 +1,30 @@
+name: DeathSwap
+version: 1.0.0
+author: NtaVi
+main: me.NtaVi.DeathSwap.Main
+discription: This is a deathswap plugin for 1.15.x!
+api-version: 1.15
+website: www.spigotmc.org
+
+commands:
+  dssettings:
+   description: Change a setting
+   usage: /dssettings <set,get,help>
+  dsstart:
+   description: Force start the game
+   usage: /dsstart
+  dsstop:
+   description: Force stop the game
+   usage: /dsstop
+  dsinfo:
+   description: Some info about the plugin
+   usage: /dsinfo
+  dsready:
+   description: Toggles if your ready or not
+   usage: /dsready [get,start]
+  dstp:
+   description: Opens a menu to teleport to other players when spectating
+   usage: /dstp <player>
+  dsstats:
+   description: Shows the stats of a player
+   usage: /dsstats <player>

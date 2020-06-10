@@ -1,0 +1,6 @@
+MinTimer: 1200
+MaxTimer: 6000
+Warning: 200
+Safe: 60
+TeleportMode: random
+WorldName: deathswap
